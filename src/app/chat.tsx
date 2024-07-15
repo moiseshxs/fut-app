@@ -1,17 +1,13 @@
 import { SafeAreaView, ScrollView } from 'react-native';
 
-import { ElencoAtivo } from '@/src/components/elenco/elencoAtivo';
-import { GestaoElenco } from '@/src/components/elenco/gestaoElenco';
+import { HeaderChat } from '@/src/components/chat/header';
 
-
-export default function Elenco() {
+export default function Chat() {
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <ScrollView style={{ flex: 1, paddingHorizontal: 20, }}>
 
-        <ElencoAtivo />
-
-        <GestaoElenco />
+      <HeaderChat />
 
       </ScrollView>
     </SafeAreaView>

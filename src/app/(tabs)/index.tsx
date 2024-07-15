@@ -1,8 +1,8 @@
 import { SafeAreaView, ScrollView } from 'react-native';
 
-import { HeaderHome } from '@/src/components/headerHome';
-import { Tabela } from '@/src/components/tabela';
-import { Jogar } from '@/src/components/jogar';
+import { HeaderHome } from '@/src/components/home/headerHome';
+import { Tabela } from '@/src/components/home/tabela';
+import { Jogar } from '@/src/components/home/jogar';
 
 export default function HomeScreen() {
   return (
